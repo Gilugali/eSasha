@@ -145,3 +145,40 @@ div.fadeIn {
     transform: translateY(0px);
   }
 }
+
+
+@media (max-width: 750px) {
+  .score{
+   /* background: tomato; */
+  }
+  .winner{
+    font-size: 26px;
+    font-weight: bold;
+    color:aliceblue;
+  }
+  .hands{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .hands .player-hand{
+    position: relative;
+    right:-7%;
+  }
+  .hands .computer-hand{
+    position: relative;
+    left: -8%;
+  }
+  .options{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    position:relative;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  
+
+}
